@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size: 100px;
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 1030245 */
+    src: url('//at.alicdn.com/t/font_1030245_jvk2c1nsur.eot');
+    src: url('//at.alicdn.com/t/font_1030245_jvk2c1nsur.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1030245_jvk2c1nsur.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1030245_jvk2c1nsur.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1030245_jvk2c1nsur.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1030245_jvk2c1nsur.svg#iconfont') format('svg');
+}
+
+@media (min-width: 320px) {
+    html{
+        font-size: 42.66667px;
+    }
+}
+@media (min-width: 360px) {
+    html{
+        font-size: 48px;
+    }
+}
+@media (min-width: 375px) {
+    html{
+        font-size: 50px;
+    }
+}
+@media (min-width: 411px) {
+    html{
+        font-size: 54.8px;
+    }
+}
+@media (min-width: 414px) {
+    html{
+        font-size: 55.2px;
+    }
+}
+/*@media (min-width: 768px) {
+    html{
+        font-size: 102.4px;
+    }
+}*/
+/*@media (min-width: 1024px) {
+    html{
+        font-size: 136.53333px;
+    }
+}*/
+i{
+    font-style: normal;
+}
+img{
+    display: block;
+}
+input:focus{
+    outline: none;
+}
+input{
+    border: none;
+}

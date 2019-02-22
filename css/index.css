@@ -1,0 +1,364 @@
+/*头部*/
+.container{
+    height: 100%;
+    width: 7.02rem;
+    min-height: 1px;
+    margin: 0 auto;
+}
+#header{
+    width: 100%;
+    /*width: 7.5rem;*/
+    margin: 0 auto;
+    height: 0.88rem;
+    background-image: linear-gradient(to right,#f8ba5d,#e9800e);
+}
+.topBar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.gpsBox{
+    width: 0.48rem;
+    height: 0.48rem;
+    background: #ffffff;
+    border-radius: 0.28rem;
+    text-align: center;
+    float: left;
+    line-height: 0.48rem;
+    font-family: iconfont;
+    font-size: 0.16rem;
+    color: rgb(237,171,106);
+}
+/*.gps{
+    width: 0.20rem;
+    height: 0.32rem;
+    line-height: 0.48rem;
+    font-family: iconfont;
+    font-size: 0.16rem;
+    margin-left: 0.14rem;
+    color: rgb(237,171,106);
+    !*float: left;*!
+}*/
+.taiyuan{
+    color: #ffffff;
+    margin-left: 0.16rem;
+    font-size: 0.16rem;
+}
+.searchBox{
+    width: 4.96rem;
+    height: 0.48rem;
+    background: #ffffff;
+    border-radius: 0.24rem;
+    margin-left: 0.9rem;
+}
+input{
+    border: none;
+    width: 4.3rem;
+    margin-left: 0.16rem;
+    margin-top: 0.10rem;
+    float: left;
+}
+.search{
+    width: 0.24rem;
+    height: 0.22rem;
+    line-height: 0.48rem;
+    font-family:iconfont;
+    font-size: 0.16rem;
+    float: right;
+    /*margin-top: 0.12rem;*/
+    margin-right: 0.12rem;
+}
+/* banner*/
+#banner{
+    width: 7.5rem;
+    height: 2.82rem;
+    margin: 0.24rem auto;
+    position: relative;
+}
+#imageBox{
+    width: 7.02rem;
+    height: 2.82rem;
+    margin: 0 auto;
+    /*position: relative;*/
+}
+#imageBox li a img{
+    width: 7.02rem;
+    height: 2.82rem;
+    box-shadow: 0 0.05rem 0.1rem 0 rgb(226,134,46);
+    position: absolute;
+    border-radius: 0.25rem;
+}
+#imageBox>li.active{
+    z-index: 1;
+}
+#pagerBox{
+    width: 0.55rem;
+    height: 0.12rem;
+    position: absolute;
+    left: 3.24rem;
+    top:2.65rem;
+    display: flex;
+    justify-content: space-between;
+}
+#pagerBox li{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 0.06rem;
+    background: #ffffff
+}
+#pagerBox>li.active{
+    z-index: 1;
+    background: #e44114;
+
+}
+/*导航部分*/
+#category{
+    width: 6.18rem;
+    height: 4rem;
+    margin: 0.3rem auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.categoryBox{
+    display: block;
+    width: 1.3rem;
+    height: 1.94rem;
+    position: relative;
+}
+.categoryBox>img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0.5rem;
+    background: #ec6941;
+    position: absolute;
+    left: 0.15rem;
+}
+.categoryBox p{
+    width: 1.5rem;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    font-size: 0.28rem;
+    color: rgb(73,71,72);
+    position: absolute;
+    top: 1.2rem;
+    left: 0.35rem;
+}
+/*热门*/
+#hot{
+    width: 100%;
+    height: 3.6rem;
+    margin: 0.6rem auto 0.3rem;
+}
+#hotContent{
+    width: 6.18rem;
+    height: 3.6rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left a img{
+    width: 2.34rem;
+    height: 3.6rem;
+    border-radius: 0.15rem;
+}
+.right{
+    height: 3.6rem;
+    width: 3.6rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.hot-one img{
+    height: 1.66rem;
+    width: 3.6rem;
+    border-radius: 0.15rem;
+}
+/*商家推荐*/
+#seller img{
+    width: 2.6rem;
+    height: 1rem;
+    margin: 0 auto 0.18rem;
+}
+#menu{
+   width: 6.18rem;
+    height: 0.28rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#menu li{
+    width: 1.3rem;
+    height: 0.38rem;
+    border-radius: 0.1rem;
+    box-sizing: border-box;
+    border: 0.02rem solid rgb(231,82,37);
+    font-size: 0.12rem ;
+    color: rgb(66,66,68);
+    text-align: center;
+    line-height: 0.35rem;
+}
+#menu li img{
+    display: inline-block;
+    width: 0.16rem;
+    height: 0.18rem;
+    margin-left: 0.02rem;
+}
+#menu li .shaixuan{
+    font-size: 0.12rem ;
+    font-family:iconfont;
+}
+.tuijian{
+    width: 7.5rem;
+    /*height: 100%;*/
+    margin: 0 auto;
+}
+#menuContent{
+    width: 6.18rem;
+    height: 8.58rem;
+    margin: 0.28rem auto 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.menuOne{
+    width: 6.18rem;
+    height: 1.55rem;
+    background: #ffffff;
+    box-shadow: 0 0.02rem 0.2rem rgb(205,205,205);
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    position: relative;
+}
+.menuOne .left{
+    width: 2rem;
+    height: 1.55rem;
+    position: relative;
+}
+.menuOne a img{
+    width: 1.8rem;
+    height: 1.1rem;
+    position: absolute;
+    top: 0.22rem;
+    right: 0;
+    border-radius: 0.15rem;
+}
+.menuOne .right{
+    width: 3.88rem;
+    height: 1.55rem;
+    position: relative;
+}
+.menuOne .right h4{
+    font-size: 0.26rem;
+    color: #424244;
+    position: absolute;
+    top: 0.14rem;
+}
+.menuOne .right .high {
+    width: 0.76rem;
+    height: 0.14rem;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0.55rem;
+}
+.menuOne .right .high img{
+    width: 0.14rem;
+    height: 0.14rem;
+}
+.menuOne .right  span{
+    display: block;
+    font-size: 0.12rem;
+    color: #424244;
+    position: absolute;
+    top: 0.45rem;
+    left: 1.18rem;
+}
+
+.menuOne .right  p{
+    font-size: 0.12rem;
+    width: 3.18rem;
+    color: #424244;
+}
+.menuOne .right .two img{
+    display: inline-block;
+    width: 0.1rem;
+    height: 0.14rem;
+}
+.menuOne .right .three img{
+    display: inline-block;
+    width: 0.16rem;
+    height: 0.16rem;
+}
+.two{
+    position: absolute;
+    top: 0.78rem;
+}
+.three{
+    position: absolute;
+    top:1.1rem;
+}
+/*底部*/
+#footer{
+    width: 100%;
+    height: 0.98rem;
+    background-color: #ffffff;
+    box-shadow: 0px -1px 16px 0px rgba(184, 184, 184, 0.4);
+    margin: 0 auto;
+    padding-top: 0.1rem;
+    position: fixed;
+    bottom: 0;
+    /*position: relative;*/
+}
+.footerContent{
+    width: 6.18rem;
+    height: 0.45rem;
+    margin:0 auto;
+    /*position: absolute;
+    top: 0.11rem;
+    left: 0.66rem;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footerContent li{
+    width: 0.45rem;
+    height: 100%;
+    float: left;
+    text-align: center;
+    /*margin-right: 1.38rem;*/
+}
+.footerContent li img{
+    /*margin: 0 auto;*/
+    width: 0.45rem;
+    height: 0.45rem;
+}
+.footerContent li p{
+    font-size: 0.2rem;
+    text-align: center;
+    margin-top: 0.03rem;
+    color: #6d6d6d;
+}
+.choose{
+    width: 6.18rem;
+    height: 0.31rem;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.choose li{
+    font-size: 0.2rem;
+    text-align: center;
+    margin-top: 0.03rem;
+    color: #6d6d6d;
+
+}

@@ -1,0 +1,387 @@
+
+/*返回部分*/
+#detailTop{
+    width: 7.5rem;
+    height: 2.94rem;
+    margin: 0 auto;
+    background-image: linear-gradient(to right,#f8ba5d,#e9800e);
+    display: flex;
+    position: relative;
+}
+.back{
+    width: 7.02rem;
+    height: 0.64rem;
+    float: left;
+    position: absolute;
+    left: 0.24rem;
+}
+.back span{
+    font-size: 0.3rem;
+    float: left;
+    position: absolute;
+    left: 0.76rem;
+    top: 0.24rem;
+    color: #ffffff;
+}
+.back .one{
+    display: inline-block;
+    width: 0.22rem;
+    height: 0.4rem;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0.24rem;
+}
+.back .two{
+    width: 1.7rem;
+    height: 0.4rem;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.back .two img{
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.4rem;
+}
+/*店铺介绍*/
+.introduction{
+    width: 7.02rem;
+    height: 2.3rem;
+    position: absolute;
+    top: 0.64rem;
+    left: 0.24rem;
+}
+.introduction .left{
+    width: 2.12rem;
+    height: 2.3rem;
+    float: left;
+}
+.introduction .left img{
+    width: 1.74rem;
+    height: 1.74rem;
+    background-color: #ffffff;
+    border-radius: 0.2rem;
+    border: 0.08rem solid #ffffff;
+    position: absolute;
+    left: 0.38rem;
+    bottom: 0.28rem;
+}
+.introduction .right{
+    width: 4.44rem;
+    height: 2.3rem;
+    position: relative;
+    float: right;
+}
+.introduction .right .img1{
+    width: 1.87rem;
+    height: 0.06rem;
+    margin-top: 0.12rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.68rem;
+}
+.introduction .right .rightBottom{
+    width: 4.44rem;
+    height: 0.78rem;
+    margin-top: 0.06rem;
+    position: relative;
+}
+.rightOne{
+    width: 1rem;
+    height: 0.3rem;
+    border: 0.02rem solid #ffffff;
+    border-radius: 0.16rem;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.3rem;
+    color: #ffffff;
+}
+.rightTwo img{
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 0.04rem;
+    position: absolute;
+    left: 1.16rem;
+    top: 0.14rem;
+}
+.rightTwo span{
+    font-size: 0.24rem;
+    color: #ffffff;
+    position: absolute;
+    left: 1.28rem;
+    top: 0;
+}
+.rightTwo .spanRight{
+    font-size: 0.24rem;
+    color: #ffffff;
+    position: absolute;
+    left: 2.1rem;
+    top: 0;
+}
+.rightThree{
+    width: 1rem;
+    height: 0.3rem;
+    border-radius: 0.16rem;
+    background-color: #ffffff;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.3rem;
+    color: #ec8c1f;
+    position: absolute;
+    right: 0.12rem;
+    top: 0;
+}
+.rightBottom>ul{
+    width: 100%;
+    height: 0.28rem;
+    position: absolute;
+    bottom: 0;
+}
+.rightBottom>ul>img{
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.28rem;
+    float: left;
+    margin-right: 0.02rem;
+}
+.rightBottom>ul>li{
+    display: inline-block;
+    font-size: 0.28rem;
+    line-height: 0.28rem;
+    color: #ffffff;
+    position: absolute;
+    left: 1.64rem;
+}
+/*注意评价*/
+.img2{
+    width: 7.5rem;
+    height: 0.96rem;
+    background-image: url("../images/zhuyi.png");
+    background-size: 7.5rem 0.96rem;
+    margin: 0 auto;
+    padding-top: 0.26rem;
+    font-size: 0.22rem;
+    color: #ffffff;
+}
+.img2 .yuandian{
+    display: inline-block;
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 0.06rem;
+    background-color: #e4e4e4;
+    border: solid 0.02rem rgba(228, 228, 228, 0.5);
+    margin-left: 0.56rem;
+    margin-right: 0.24rem;
+}
+#evaluate{
+    width: 3.18rem;
+    height: 0.6rem;
+    margin: 0.3rem auto 0.24rem;
+    border-radius: 0.3rem;
+    border: 0.02rem solid #a0a0a0;
+    position: relative;
+}
+.order span{
+    font-size: 0.22rem;
+    color: #ffffff;
+    position: absolute;
+    left: 0.6rem;
+    top: 0.12rem;
+}
+.order p{
+    font-size: 0.22rem;
+    color: #474646;
+    position: absolute;
+    right: 0.6rem;
+    top: 0.12rem;
+}
+.order img{
+    width: 1.42rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 0.08rem;
+    left: 0.12rem;
+}
+/*特色菜*/
+#content{
+    width: 7.5rem;
+    height: 8.34rem;
+    margin: 0 auto;
+    background-color: #dcdada;
+    display: flex;
+    justify-content: space-between;
+}
+.classify{
+    width: 2.36rem;
+    height: 8.34rem;
+    float:left;
+    background-color: #000000;
+    padding: 0.4rem 0.3rem 0.14rem;
+}
+.classify a li{
+    width: 1.76rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    border: 0.02rem solid #e98312;
+    font-size: 0.26rem;
+    color: #e98312;
+    text-align: center;
+    line-height: 0.6rem;
+    margin-bottom: 0.28rem;
+}
+/*.classify a li:hover{*/
+    /*background: #e98312;*/
+    /*color: #ffffff;*/
+/*}*/
+.special{
+    width: 5.14rem;
+    height: 8.34rem;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding: 0.3rem 0.26rem;
+}
+.special li{
+    width: 4.7rem;
+    height: 1.72rem;
+    background: #ffffff;
+    box-shadow: 0 0.02rem 0.2rem 0 #c4c1c1;
+    border-radius: 0.15rem;
+    position: relative;
+}
+.special li .c1{
+    width: 1.18rem;
+    height: 1.18rem;
+    position: absolute;
+    top: 0.26rem;
+}
+.special li p{
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #595959;;
+    position: absolute;
+    left: 1.26rem;
+    top: 0.14rem;
+}
+.star1{
+    width: 1.38rem;
+    height: 0.24rem;
+    position: absolute;
+    top: 0.56rem;
+    left: 1.26rem;
+}
+.star2{
+    width: 0.24rem;
+    height: 0.24rem;
+    margin-right: 0.02rem;
+    float: left
+}
+.xuxian{
+    width: 1.85rem;
+    height: 0.03rem;
+    position: absolute;
+    left: 1.28rem;
+    top: 0.9rem;
+}
+.rmb{
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #de7704;
+    position: absolute;
+    left: 1.26rem;
+    top: 0.96rem;
+}
+.RMB{
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: #de7704;
+    position: absolute;
+    left: 2.06rem;
+    top: 1rem;
+}
+.circle{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 0.04rem;
+    position: absolute;
+    left: 1.26rem;
+    top: 1.42rem;
+}
+.moments{
+    font-size: 0.2rem;
+    color: rgba(2,2,2,0.5);
+    position: absolute;
+    left: 1.4rem;
+    top: 1.3rem;
+}
+.jia {
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    top: 0.7rem;
+    right: 0.18rem;
+}
+/*购物车*/
+#car{
+    width: 100%;
+    height: 1rem;
+    margin: 0 auto ;
+    background: #ffffff;
+    box-shadow: 0 -0.01rem 0.2rem 0 #cccaca;
+    /*position: relative;*/
+    padding: 0.11rem 0.24rem;
+    position: fixed;
+    bottom: 0;
+}
+#car .carContent{
+    width: 7.02rem;
+    height: 0.72rem;
+    margin: 0 auto;
+    position: relative;
+}
+#car img{
+    width: 0.72rem;
+    height: 0.72rem;
+    float: left;
+    display: inline-block;
+    /*position: absolute;*/
+    /*left: 0.3rem;*/
+    /*top: 0.14rem;*/
+}
+#car .p1{
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #595959;
+    display: inline-block;
+    margin-left: 0.24rem;
+    float: left;
+   /* position: absolute;
+    left: 1.16rem;
+    top: 0.16rem;*/
+}
+#car .p2{
+    font-size: 0.22rem;
+    color: #8d8d8d;
+    position: absolute;
+    left: 0.92rem;
+    top: 0.38rem;
+}
+#car .p3{
+    width: 1.52rem;
+    height: 0.56rem;
+    border-radius: 0.28rem;
+    background: #676666;
+    float: right;
+    margin-top: 0.1rem;
+    /*position: absolute;
+    right: 0.26rem;
+    top: 0.24rem;*/
+    font-size: 0.28rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.56rem;
+}

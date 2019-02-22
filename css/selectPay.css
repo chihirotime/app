@@ -1,0 +1,65 @@
+#payDetails .select{
+    font-size: 0.32rem;
+    font-weight: bold;
+    color: #595959;
+    position: absolute;
+    left: 2.5rem;
+    top: 0.34rem;
+}
+.close{
+    font-weight: bold;
+    font-size: 0.3rem;
+    position: absolute;
+    right: 0.24rem;
+    top: 0.1rem;
+}
+.payInfo{
+    width: 6.5rem;
+    height: 5.2rem;
+    position: absolute;
+    left: 0.24rem;
+    top: 1.2rem;
+}
+#payDetails{
+    width: 7.02rem;
+    height: 6.74rem;
+    background: #ffffff;
+    box-shadow: 0 0.02rem 0.18rem 0 #cdcdcd;
+    border-radius: 0.15rem;
+    margin-left: 0.24rem;
+    position: relative;
+   /* position: absolute;
+    left: 0.24rem;*/
+}
+#payDetails .dotted1{
+    width: 6.5rem;
+    height: 0.05rem;
+    position: absolute;
+    top: 0.92rem;
+    left: 0.24rem;
+}
+.payInfo li{
+    width: 6.5rem;
+    height: 1.04rem;
+    position: relative;
+}
+.payInfo li .balance{
+    width: 0.68rem;
+    height: 0.68rem;
+    position: absolute;
+    top: 0.2rem;
+}
+.payInfo li h3{
+    font-size: 0.32rem;
+    color: #595959;
+    position: absolute;
+    left: 1.1rem;
+    top: 0.24rem;
+}
+.payInfo li .dotted2{
+    width: 5.55rem;
+    height: 0.05rem;
+    position: absolute;
+    bottom: 0.08rem;
+    right: 0;
+}

@@ -1,0 +1,152 @@
+#back{
+    width: 7.5rem;
+    height: 1.6rem;
+    margin: 0 auto;
+    background-image: linear-gradient(-90deg, #e97f0d 0%, #f8ba5d 100%);
+    position: relative;
+}
+#back .backKey{
+    width: 0.22rem;
+    height: 0.4rem;
+    position: absolute;
+    left: 0.24rem;
+    top: 0.24rem;
+}
+#back h3{
+    font-size: 0.4rem;
+    color: #ffffff;
+    position: absolute;
+    left: 0.24rem;
+    bottom:0.24rem ;
+}
+#payment{
+    width: 7.5rem;
+    height: 0.98rem;
+    margin: 0 auto;
+    position: relative;
+}
+#payment .one{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 0.04rem;
+    position: absolute;
+    left: 0.24rem;
+    top: 0.46rem;
+}
+#payment .two{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 0.04rem;
+    position: absolute;
+    left: 0.38rem;
+    top: 0.46rem;
+}
+#payment h3{
+    font-size: 0.3rem;
+    color: #585858;
+    position: absolute;
+    left: 0.68rem;
+    top: 0.3rem;
+}
+#payment .spanOne{
+    font-size: 0.18rem;
+    color: #f29735;
+    position: absolute;
+    top: 0.36rem;
+    right: 1.1rem;
+}
+#payment .spanTwo{
+    font-size: 0.3rem;
+    color: #e77801;
+    font-weight: bold;
+    position: absolute;
+    top: 0.3rem;
+    right: 0.24rem;
+}
+#card{
+    width:7.5rem;
+    height: 4.1rem;
+    margin: 0 auto;
+    position: relative;
+}
+#card .card{
+    width: 6.45rem;
+    height: 3.5rem;
+    margin-left: 0.52rem;
+    /*position: absolute;
+    left: 0.52rem;*/
+}
+#card .cardBottom{
+    width: 7.5rem;
+    height: 1.38rem;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(250, 250, 250, 0.9);
+    box-shadow: 0 -0.02rem 0.2rem 0 rgba(180, 180, 180, 0.8);
+}
+.cardBottom .img1{
+    width: 4.08rem;
+    height: 0.1rem;
+    position: absolute;
+    top: 0.4rem;
+    left: 1.7rem;
+}
+.cardBottom span{
+    font-weight: bold;
+    font-size: 0.26rem;
+    color: #736f60;
+    position: absolute;
+    left: 2.3rem;
+    top: 0.25rem;
+}
+#pwd{
+    width: 7.5rem;
+    height: 6.3rem;
+    margin: 0 auto;
+    position: relative;
+}
+#pwd .pwdLine{
+    width: 3.84rem;
+    height: 0.08rem;
+    position: absolute;
+    left: 1.82rem;
+    top: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.pwdLine .pwdLine1{
+    width: 0.52rem;
+    height: 0.08rem;
+    background: #cccccc;
+    border-radius: 0.04rem;
+}
+.passwd {
+    width: 3.84rem;
+    height: 0.15rem;
+    position: absolute;
+    left: 1.82rem;
+    top: 0.8rem;
+}
+.passwd .passwdOne{
+    width: 0.15rem;
+    height: 0.15rem;
+    background: #595959;
+    border-radius: 0.08rem;
+    position: absolute;
+    left: 0.2rem;
+}
+.passwd .passwdTwo{
+    font-size: 0.24rem;
+    line-height: 0.15rem;
+    font-weight: bold;
+    color: #737373;
+    border-radius: 0.08rem;
+    position: absolute;
+    left:2.2rem;
+}
+#pwd .keyboard{
+    width: 7.5rem;
+    height: 4.28rem;
+    position: absolute;
+    bottom: 0;
+}

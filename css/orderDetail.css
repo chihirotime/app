@@ -1,0 +1,133 @@
+#tab{
+    width: 7.5rem;
+    height: 1.2rem;
+    margin: 0 auto;
+    background-image: linear-gradient(-90deg,#e97f0d 0%,#f8ba5d 100%);
+    position: relative;
+}
+#tab .tabImg{
+    width: 0.42rem;
+    height: 0.1rem;
+    position: absolute;
+    bottom: 0.18rem;
+    left: 3.54rem;
+}
+#tab h3{
+    font-size: 0.32rem;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    position: absolute;
+    left: 3.1rem;
+    top: 0.34rem;
+}
+/*内容*/
+#orderContent{
+    width: 7.5rem;
+    height: 11.9rem;
+    margin: 0.6rem auto 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+#orderContent li{
+    width: 7.02rem;
+    height: 2.05rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.2rem 0 #d0d0d0;
+    border-radius: 0.18rem;
+    position: relative;
+}
+#orderContent li .leftBackground{
+    width: 1rem;
+    height: 2.05rem;
+    background: #ec8819;
+    border-radius: 0.18rem 0 0 0.18rem;
+}
+#orderContent li .leftImg{
+    width: 1.5rem;
+    height: 1.5rem;position: absolute;
+    left: 0.24rem;
+    top: 0.26rem;
+
+}
+#orderContent li .rightContent{
+    width: 4.8rem;
+    height: 1.5rem;
+    position: absolute;
+    right: 0.24rem;
+    top: 0.26rem;
+}
+.rightContent h3{
+    font-size: 0.32rem;
+    color: #585858;
+    letter-spacing: 1px;
+}
+.rightContent .one{
+    letter-spacing: 0.01rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: #8d8d8d;
+    position: absolute;
+    right: 0;
+    top: 0.12rem;
+}
+.rightContent .two{
+    letter-spacing: 0.01rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: #8d8d8d;
+    position: absolute;
+    top: 0.46rem;
+}
+.rightContent .note{
+    width: 3rem;
+    height: 0.34rem;
+    position: absolute;
+    top: 0.82rem;
+    display: flex;
+    justify-content: space-between;
+}
+.note .first{
+    font-size: 0.22rem;
+    letter-spacing: 0.01rem;
+    color: #eea05f;
+    text-align: center;
+    width: 0.86rem;
+    height: 0.34rem;
+    border-radius: 0.18rem;
+    border: solid 0.02rem #f6b253;
+    box-sizing: border-box;
+    line-height: 0.3rem;
+}
+.rightContent .rightImg{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 0.04rem;
+    position: absolute;
+    bottom: 0.1rem;
+}
+.rightContent .time{
+    font-weight: bold;
+    font-size: 0.24rem;
+    color: #dddddd;
+    position: absolute;
+    left: 0.1rem;
+    bottom: 0;
+}
+.rightContent .three{
+    font-size: 0.36rem;
+    font-weight: bold;
+    color: #ea8312;
+    position: absolute;
+    bottom: 0;
+    right: 0.66rem;
+}
+.rightContent .four{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #5b5b5b;
+    position: absolute;
+    bottom: 0.04rem;
+    right: 0;
+}

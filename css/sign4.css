@@ -1,0 +1,16 @@
+#input .pwdTrue{
+    width: 0.28rem;
+    height: 0.28rem;
+    border-radius: 0.14rem;
+    position: absolute;
+    right: 0.68rem;
+    bottom: 0.38rem;
+}
+#background  #input .prompt2{
+    width: 1.85rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    position: absolute;
+    right: 0.68rem;
+    bottom: 0.78rem;
+}

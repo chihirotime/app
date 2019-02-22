@@ -1,0 +1,84 @@
+#success{
+    width: 7.5rem;
+    height: 6.45rem;
+    margin: 0 auto;
+    position: relative;
+}
+#success .picture{
+    width: 4.4rem;
+    height: 4.7rem;
+    position: absolute;
+    left: 1.5rem;
+    top: 0.1rem;
+}
+#success h3{
+    font-size: 0.4rem;
+    color: #474747;
+    position: absolute;
+    bottom: 1.2rem;
+    left: 3.15rem;
+}
+#success .picture2{
+    width: 3.36rem;
+    height: 0.08rem;
+    position: absolute;
+    left: 2.05rem;
+    bottom: 0.9rem;
+}
+#success p{
+    font-size: 0.26rem;
+    color: #8d8d8d;
+    position: absolute;
+    left: 2.74rem;
+    bottom: 0.8rem;
+}
+#line{
+    width: 7.02rem;
+    height: 0.04rem;
+    border: solid 0.02rem #e5e5e5;
+    background: #e5e5e5;
+    margin: 0 auto;
+}
+/*按钮*/
+#bottom{
+    width: 7.5rem;
+    height: 4.9rem;
+    margin: 0 auto;
+    /*position: relative;*/
+}
+#bottom .backButton{
+    width:3.14rem;
+    height: 1rem;
+    background-image: linear-gradient(90deg, #ff6825 12%, #eb2e35 100%);
+    box-shadow: 0 0.02rem 0.2rem 0 #f2442f;
+    border-radius: 0.5rem;
+    font-size: 0.36rem;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 0.01rem;
+    text-align: center;
+    line-height: 1rem;
+    margin-left: 2.18rem;
+    margin-top: 0.9rem;
+   /* position: absolute;
+    left: 2.18rem;
+    top: 0.9rem;*/
+}
+#bottom .continue{
+    width:3.14rem;
+    height: 1rem;
+    background-image: linear-gradient(90deg, #f7d02d 0%, #fbbd30 41%, #ffa932 100%);
+    box-shadow: 0 0.02rem 0.2rem 0 #ffa932;
+    border-radius: 0.5rem;
+    font-size: 0.36rem;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 0.01rem;
+    text-align: center;
+    line-height: 1rem;
+    margin-top: 1rem;
+    margin-left: 2.18rem;
+    /*position: absolute;
+    left: 2.18rem;
+    bottom: 1.25rem;*/
+}

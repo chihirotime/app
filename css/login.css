@@ -1,0 +1,171 @@
+#background{
+    width: 7.5rem;
+    height: 13.34rem;
+    margin: 0 auto;
+    background-image: url("../images/loginBackground.png");
+    background-size: 7.5rem 13.34rem;
+    background-repeat: no-repeat;
+    /*position: relative;*/
+}
+/*顶部*/
+#background .coping{
+    width: 6.3rem;
+    height: 3.2rem;
+    float: right;
+    margin-top: 0.76rem;
+    position: relative;
+    /*position: absolute;
+    right: 0;
+    top: 0.76rem;*/
+}
+#background .coping .sign{
+    width: 1rem;
+    height: 0.5rem;
+    border-radius: 0.25rem;
+    background: #ffffff;
+    float: right;
+    position: absolute;
+    right: 0.24rem;
+    font-size: 0.28rem;
+    color: #b8b8b8;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.coping h3{
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 0.96rem;
+}
+.coping .eat{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 0.38rem;
+}
+.coping .healthy{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.4);
+    position: absolute;
+    bottom: 0;
+}
+/*输入*/
+#background .input{
+    width: 6.3rem;
+    height: 4.64rem;
+    float: right;
+    margin-top: 0.76rem;
+    /*position: absolute;
+    right: 0;
+    top: 4.7rem;*/
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0 0.01rem 0.15rem 0 #d2d2d2;
+}
+#background .input .user{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0.54rem;
+    left: 0.6rem;
+}
+.input .inputUser{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 1.3rem;
+    left: 0.6rem;
+}
+.input .userLine{
+    width: 5.08rem;
+    height: 0.04rem;
+    background: #e5e5e5;
+    position: absolute;
+    top: 1.75rem;
+    left: 0.6rem;
+}
+
+#background .input .password{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 2.32rem;
+    left: 0.6rem;
+}
+.input .inputPwd{
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 3.04rem;
+    left: 0.6rem;
+}
+.input .pwdLine{
+    width: 5.08rem;
+    height: 0.04rem;
+    background: #e5e5e5;
+    position: absolute;
+    top: 3.5rem;
+    left: 0.6rem;
+}
+.input .forget{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    position: absolute;
+    left: 0.56rem;
+    bottom: 0.3rem;
+}
+.input .forgetPwd{
+    font-size: 0.22rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.4);
+    position: absolute;
+    bottom: 0.38rem;
+    left: 1.02rem;
+}
+/*登录*/
+#background .bottom{
+    width: 6.3rem;
+    height: 2.54rem;
+    /*position: absolute;
+    right: 0;
+    bottom: 0.96rem;*/
+    float: right;
+    margin-top: 0.56rem;
+    position: relative;
+}
+.bottom .login{
+    width: 6.3rem;
+    height: 0.96rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.01rem 0.15rem 0 #d2d2d2;
+    font-weight: bold;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.96rem;
+    color: rgba(0,0,0,0.4);
+}
+.bottom p{
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 1.92rem;
+    top: 1.24rem;
+}
+.bottom .part{
+    width: 2.46rem;
+    height: 0.78rem;
+    position: absolute;
+    left: 1.9rem;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom .part img{
+    width: 0.78rem;
+    height: 0.78rem;
+    border-radius: 0.4rem;
+}

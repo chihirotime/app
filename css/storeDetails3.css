@@ -1,0 +1,256 @@
+#content3{
+    width: 7.5rem;
+    height: 8.34rem;
+    margin: 0 auto;
+    background-color: #dcdada;
+}
+.classify3{
+    width: 2.36rem;
+    height: 100%;
+    float:left;
+    background-color: #000000;
+    padding: 0.4rem 0.3rem 0.14rem;
+}
+.classify3 a li{
+    width: 1.76rem;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    border: 0.02rem solid #e98312;
+    font-size: 0.26rem;
+    color: #e98312;
+    text-align: center;
+    line-height: 0.6rem;
+    margin-bottom: 0.28rem;
+}
+/*.classify a li:hover{*/
+/*background: #e98312;*/
+/*color: #ffffff;*/
+/*}*/
+.special3{
+    width: 5.14rem;
+    height: 100%;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding: 0.3rem 0.26rem;
+}
+.special3 li{
+    width: 4.7rem;
+    height: 1.72rem;
+    background: #ffffff;
+    box-shadow: 0 0.02rem 0.2rem 0 #c4c1c1;
+    border-radius: 0.15rem;
+    position: relative;
+}
+.special3 li .c1{
+    width: 1.18rem;
+    height: 1.18rem;
+    position: absolute;
+    top: 0.26rem;
+}
+.special3 li p{
+    font-size: 0.3rem;
+    font-weight: bold;
+    color: #595959;;
+    position: absolute;
+    left: 1.26rem;
+    top: 0.14rem;
+}
+.special3 .star1{
+    width: 1.38rem;
+    height: 0.24rem;
+    position: absolute;
+    top: 0.56rem;
+    left: 1.26rem;
+}
+.special3 .star2{
+    width: 0.24rem;
+    height: 0.24rem;
+    margin-right: 0.02rem;
+    float: left
+}
+.special3 .xuxian{
+    width: 1.85rem;
+    height: 0.03rem;
+    position: absolute;
+    left: 1.28rem;
+    top: 0.9rem;
+}
+.special3 .rmb{
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #de7704;
+    position: absolute;
+    left: 1.26rem;
+    top: 0.96rem;
+}
+.special3 .RMB{
+    font-size: 0.24rem;
+    font-weight: bold;
+    color: #de7704;
+    position: absolute;
+    left: 2.06rem;
+    top: 1rem;
+}
+.special3 .circle{
+    width: 0.08rem;
+    height: 0.08rem;
+    border-radius: 0.04rem;
+    position: absolute;
+    left: 1.26rem;
+    top: 1.42rem;
+}
+.special3 .moments{
+    font-size: 0.2rem;
+    color: rgba(2,2,2,0.5);
+    position: absolute;
+    left: 1.4rem;
+    top: 1.3rem;
+}
+.special3 .jia {
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    top: 0.7rem;
+    right: 0.18rem;
+}
+.special3 li .jianhao{
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    top: 0.7rem;
+    right: 0.8rem;
+}
+.special3 li .number{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #595959;
+    position: absolute;
+    top: 0.68rem;
+    right: 0.56rem;
+}
+#bill{
+    width: 7.5rem;
+    height: 2.1rem;
+    background: #ffffff;
+    /*margin: 0 auto;*/
+    position: fixed;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    /*top: 9.22rem;*/
+    margin: auto;
+
+}
+#bill .billContent{
+    width: 7.02rem;
+    height: 100%;
+    margin-left: 0.24rem;
+    position: relative;
+}
+#bill .choose1{
+    font-weight: bold;
+    font-size: 0.26rem;
+    color: #adadad;
+    position: absolute;
+    top: 0.2rem;
+}
+#bill .clean{
+    width: 0.24rem;
+    height: 0.24rem;
+    position: absolute;
+    right: 0.56rem;
+    top: 0.24rem;
+}
+#bill .cleanP{
+    font-weight: bold;
+    font-size: 0.26rem;
+    color: #adadad;
+    position: absolute;
+    right: 0;
+    top: 0.18rem;
+}
+#bill .line{
+    width: 7.02rem;
+    height: 0.06rem;
+    color: #cfcdcd;
+    position: absolute;
+    top: 0.56rem;
+}
+.billBottom{
+    width: 7.05rem;
+    height: 1.2rem;
+    position: absolute;
+    top: 0.74rem;
+}
+.billBottom li{
+    width: 7.05rem;
+    height: 0.4rem;
+    position: relative;
+}
+.billBottom .font1{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #595959;
+    position: absolute;
+    top: 0.02rem;
+}
+.billBottom .yuan1{
+    width: 0.08rem;
+    height: 0.08rem;
+    position: absolute;
+    right: 3rem;
+    top: 0.16rem;
+}
+.billBottom .font2{
+    font-size: 0.28rem;
+    color: #de7704;
+    font-weight: bold;
+    position: absolute;
+    right: 2.2rem;
+}
+.billBottom .font3{
+    font-size: 0.22rem;
+    color: #404040;
+    font-weight: bold;
+    position: absolute;
+    right: 1.6rem;
+    top: 0.06rem;
+}
+.billBottom .jia3{
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    right: 0;
+    top: 0.04rem;
+}
+.billBottom .number3{
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #595959;
+    position: absolute;
+    right: 0.35rem;
+    top: 0.02rem;
+}
+.billBottom .jianhao3{
+    width: 0.3rem;
+    height: 0.3rem;
+    position: absolute;
+    right: 0.55rem;
+    top: 0.04rem;
+}
+.billBottom .font4{
+    font-size: 0.28rem;
+    color: #de7704;
+    font-weight: bold;
+    position: absolute;
+    right: 2.6rem;
+}
+.billBottom .font5{
+    font-size: 0.22rem;
+    color: #404040;
+    font-weight: bold;
+    position: absolute;
+    right: 2rem;
+    top: 0.06rem;
+}
