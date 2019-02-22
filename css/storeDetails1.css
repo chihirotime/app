@@ -230,7 +230,8 @@
     font-size: 0.26rem;
     color: #e98312;
     text-align: center;
-    line-height: 0.6rem;
+    line-height: 0.56rem;
+    box-sizing: border-box;
     margin-bottom: 0.28rem;
 }
 /*.classify a li:hover{*/
