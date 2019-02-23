@@ -28,7 +28,7 @@
     float: left;
     line-height: 0.48rem;
     font-family: iconfont;
-    font-size: 0.16rem;
+    font-size: 0.32rem;
     color: rgb(237,171,106);
 }
 /*.gps{
@@ -65,7 +65,7 @@ input{
     height: 0.22rem;
     line-height: 0.48rem;
     font-family:iconfont;
-    font-size: 0.16rem;
+    font-size: 0.24rem;
     float: right;
     /*margin-top: 0.12rem;*/
     margin-right: 0.12rem;
