@@ -1,6 +1,15 @@
 #pwd .finger{
     width: 7.5rem;
     height: 6.1rem;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    position: relative;
+}
+#pwd a .finger3{
+    display: block;
+    width: 1.97rem;
+    height: 1.99rem;
     position: absolute;
-    bottom: 0;
+    left: 2.75rem;
+    top: 1.9rem;
 }
